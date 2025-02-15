@@ -35,6 +35,7 @@ jobs:
       - name: Set Up JDK
         uses: actions/setup-java@v4
         with:
+          distribution: 'Zulu'
           java-version: '8'
           cache: 'gradle'
 
